@@ -1,0 +1,64 @@
+
+git init
+git add .
+git commit -m "LBvalentine"
+git branch -M main
+git remote add origin https://github.com/Beatriz-Franca/LBvalentine.git
+git push -u origin main
+
+
+
+body { /*design do body*/
+  background-image: url('fundo.png'); /*papel de parede do site*/
+  background-repeat: no-repeat; /*mostra que a imagem não vai ser duplicada*/
+  background-attachment:scroll;  /*papel de parede fixo*/
+  background-size: cover; /*tamanho da imagem */
+}
+h2{ /*design do h2*/
+    color: rgb(216, 83, 134); /*cor do h2*/
+    text-align: center; /*alinhado para o centro*/
+    font-size: x-large; /*tamanho da fonte*/
+}
+div.gallery { /*design da galeria*/
+  background-color: #f87ecf;
+    margin: 50px; /*tamanho da margem*/
+    border: 3px solid #c457bb; /*tamanho da borda*/
+    float: left; /*alinha um conteúdo a um certo lado, permitindo com que um textoou item venha ao seu lado*/
+    width: 180px; /*tamanho do comprimento da galeria*/
+  
+    
+  }
+  
+  div.gallery:hover { /*mostra um efeito de transição quando o mouse posicionar em cima */
+    border: 4px solid #b451af; /*tamanho da borda*/
+  
+  }
+  
+  div.gallery img { 
+    width: 100%; /*comprimento da imagem da galeria*/
+    height: auto; /*altura da imagem*/
+    width: 100%; /*comprimento da imagem*/
+    display: block; /*mostra como a imagem vai estar renderizada*/
+  }
+  
+  div.desc { 
+    padding: 20px; /*espaçamento*/
+    text-align: center; /*texto alinhado para o centro*/
+  }
+  .desc p {
+    color: #610707; /**/
+    text-align: left; /**/
+    text-align: center; /**/
+  }
+  
+  .desc h4{ /**/
+    color: #682b2b; /**/
+    font-style: arial; /**/
+  }
+
+  footer{
+    background-color:rgb(245, 146, 184);
+    background-attachment: fixed;
+    background-size: cover;
+    float:left;
+  }

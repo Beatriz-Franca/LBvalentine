@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title> LB VALENTINE </title>
+  </head>
+
+
+    <style>
+      
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color:rgb(236, 141, 192);
+          
+        }
+</style>
+<body>
+
+
+  
+    <header>
+        <section class="menu" id="menu"> 
+            <nav>
+              
+                <div>
+                 
+                
+                    <ul>
+                        <h2 class="menu" id="menu" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">LB VALENTINE</h2>
+                              
+                            
+                    </ul>   
+
+                </div>
+            </nav>
+
+        </section>
+      </header>
+
+      <section class="banner" id="banner">
+        <div class="slider">
+          <!-- Container que agrupa todos os slides -->
+          <div class="slides">
+              <!-- Slide 1 -->
+              <div class="slide">
+                  <img src="banner.png" alt="Banner 1" style="max-width: 500px;">
+              </div>
+              <!-- Slide 2 -->
+              <div class="slide">
+                  <img src="banner (2).png" alt="Banner 2" style="max-width: 500px;">
+              </div>
+              
+          </div>
+      </div>
+
+      </section>
+      <section class="carrinho-compras">
+
+     
+      <div id="cart">
+        <h1>Carrinho de compras</h1>
+        <h3>Itens no Carrinho:</h3>
+        <ul id="lista-carrinho"></ul> 
+        <p id="total">Total: R$0</p>
+        <button id="comprar" onclick="finalizarCompra()">Finalizar compra</button>
+    </div>
+    
+      <script src="js/Index.js"></script>
+    </section>
+       
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <section class="gallery">
+               
+            <div class="gallery">
+              <a target="_blank">
+                <img src="bquederosasvermelhas.pdf"alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc"><h4>Buque com 100 Rosas Vermelhas</h4> <p>R$ 550.00</p>
+                <button onclick="adicionarProduto('Bque de rosas vermelhas', 550)">Adicionar ao carrinho</button>
+                </div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank">
+                <img src="ursoscarinhosos.pdf" width="600" height="400">
+              </a>
+              <div class="desc"> <h4>Ursinhos Carinhosos (Sortidos) </h4> <p>R$ 66,00</p>
+
+                <button onclick="adicionarProduto('Usinhos carinhosos (sortidos)', 66)">Adicionar ao carrinho</button>
+            </div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" >
+                <img src="buqedeorboletas.pdf" width="600" height="400">
+              </a>
+              <div class="desc"> <h4>Buquê de borboletas </h4> 
+                <p>R$ 70,00</p>
+                <button onclick="adicionarProduto('Buquê de borboletas', 70)">Adicionar ao carrinho</button>
+              </div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" >
+                <img src="buquedecetim.pdf" alt="Mountains" width="600" height="400">
+              </a>
+              <div class="desc"><h4> Buquê de cetim </h4> 
+                 <p>R$ 80.00</p>
+                 <button onclick="adicionarProduto('Buque de cetim', 80)">Adicionar ao carrinho</button>
+              </div>
+            </div>
+            
+            <div class="gallery">
+                <a target="_blank" >
+                  <img src="caixadebombom.pdf" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc"> <h4>Caixa de bombom</h4>
+                  <p>R$ 80,00</p>
+                  <button onclick="adicionarProduto('Caixa de Bombom', 80)">Adicionar ao carrinho</button>
+                </div>
+              </div>
+              
+              <div class="gallery">
+             
+                <a target="_blank" >
+                  <img src="kit-removebg-preview.pdf" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc"><h4>Kit namorados</h4>
+                   <p>R$150,00 </p>
+                   <button onclick="adicionarProduto('Kit Namorados', 150)">Adicionar ao carrinho</button>
+                </div>
+              </div>
+            </section>
+              <br>
+            
+             <footer>
+              <p>&copy; Todos os direitos reservados a LB valentines</p>
+             </footer>
+</body>
+
+
+</html>

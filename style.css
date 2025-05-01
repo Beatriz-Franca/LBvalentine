@@ -1,0 +1,54 @@
+.body{
+    background-image: "fundo.png";
+}
+.banner {
+    width: auto; 
+    max-width: 1000px; 
+    height: auto;
+    max-height:400px;
+    margin: 0 auto; 
+    overflow: hidden; 
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.slider {
+    display: flex; 
+    width: auto;
+    animation: slideAnimation 30s infinite; 
+}
+
+
+.slides {
+    width: 100%; 
+    flex-shrink: 10; 
+}
+.slider {
+    width: 50%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+
+.slides {
+    display: flex; 
+    width: 50%;
+    animation: slideAnimation 49s infinite; 
+}
+
+@keyframes identifier {
+    10% {transform: translateX(0);}
+    20% {transform: translateX(-100);}
+}
+
+
+.slide {
+    width: 500%; 
+    flex-shrink: 0; 
+}
+
+ 
